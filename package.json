@@ -1,0 +1,8 @@
+{
+  "name": "webpack-es6-postcss-images",
+  "version": "1.0.0",
+  "description": "This project represent the boilerplate to start an es6 library.",
+  "main": "index.js",
+  "author": "Szabo <ioan.szabo@yahoo.com>",
+  "license": "MIT"
+}
