@@ -8,13 +8,17 @@
     "scripts": {
         "build": "./node_modules/.bin/webpack",
         "lint": "./node_modules/.bin/eslint ./src",
-        "start": "./node_modules/.bin/webpack-dev-server",
-        "pre-commit": "lint-staged"
+        "start": "./node_modules/.bin/webpack-dev-server"
+    },
+    "husky": {
+        "hooks": {
+            "pre-commit": "lint-staged"
+        }
     },
     "lint-staged": {
         "*.js": [
             "yarn lint",
-            "prettier --check",
+            "prettier --write",
             "git add"
         ]
     },

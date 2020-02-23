@@ -5,6 +5,7 @@
         "node": true
     },
     "extends": [
+        "prettier",
         "standard"
     ],
     "globals": {
@@ -17,7 +18,7 @@
     },
     "rules": {
         "indent": [
-            2,
+            1,
             4
         ]
     }
