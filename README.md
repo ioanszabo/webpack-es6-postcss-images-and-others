@@ -1,6 +1,6 @@
 ES6 project-starter boilerplate
 ==========
-This is boilerplate to start your own project. 
+This is a boilerplate to start your own project. 
 It's purpose is to to save you from configuring the environment.
 If you encounter any issues, please let me know to fix them, or you can 
 fix and make a pull request. Thanks.
@@ -18,12 +18,12 @@ Boilerplate treats the following items:
 - Images (file-loader)
 
 ### :gear: Installation
-`mkdir <your project name>`
-`git clone https://github.com/ioanszabo/webpack-es6-postcss-images-and-others.git .`
-`cd <ypur project name>`
-`yarn install`
+`mkdir <your project name>`<br>
+`git clone https://github.com/ioanszabo/webpack-es6-postcss-images-and-others.git .`<br>
+`cd <ypur project name>`<br>
+`yarn install`<br>
 
-At this point you can start write your project.
+At this point you can start writing your project.
 
 ### :bookmark_tabs: Browser support
 It is build for browsers that support all modern features.
@@ -65,7 +65,7 @@ For more info please check official documentation.
     ]
 },
 ```
->remove the following dependencies:
+>remove the following dependencies
 ``` 
 "husky": "^4.2.3",
 "lint-staged": "^10.0.7",
@@ -73,5 +73,5 @@ For more info please check official documentation.
 > and remove pre-commit hook from .git/hooks directory
 
 ### :scroll: License
-See the [LICENSE](LICENSE.md) file for license rights and limitations (MIT).
+See the [LICENSE](LICENSE.md) file for license rights and limitations.
 
