@@ -57,7 +57,6 @@
         "basscss": "^8.1.0",
         "basscss-background-colors": "^2.1.0",
         "basscss-colors": "^2.2.0",
-        "classnames": "^2.2.6",
         "whatwg-fetch": "^3.0.0"
     }
 }
